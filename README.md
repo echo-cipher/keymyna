@@ -48,10 +48,10 @@ Pretrained models (MLP heads on top of [Myna-Vertical](https://github.com/ghost-
 
 ## Results
 KeyMyna achieves state-of-the-art results on key detection benchmarks:
-| Model | Dataset | MIREX Weighted Score |
+| Model | Dataset | MIREX Weighted Score | Accuracy |
 |--------|------------|------------------|
-| KeyMyna (ours) | GiantSteps | 75.91 |
-| KeyMyna (ours) | McGill Billboard | 84.35 |
+| KeyMyna (ours) | GiantSteps | **75.91** | **72.02** | 
+| KeyMyna (ours) | McGill Billboard | 84.35 | **79.87** | 
 
 ## Citation
 If you use KeyMyna in your research, please cite:

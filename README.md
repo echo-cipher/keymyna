@@ -10,8 +10,9 @@ KeyMyna introduces a novel approach to music key detection by leveraging Myna-st
 📂 KeyMyna
 ├── 📜 README.md        # This file
 ├── 📜 requirements.txt # Required dependencies
+├── 📜 inference.py     # Minimal inference script
 ├── 📜 parse_args.py    # Parse command-line arguments for train/evaluation
-├── 📜 ho.py            # Automated hyperparameter search, as detailed in the paper
+├── 📜 hp.py            # Automated hyperparameter search, as detailed in the paper
 ├── 📜 hp_slurm.py      # Parallelized hyperparameter search on a SLURM cluster
 └── 📜 train.py         # Main training script
 ```
